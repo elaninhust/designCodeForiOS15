@@ -16,6 +16,12 @@ struct AccountView: View {
         menu
                 
         links
+        
+//        ShareLink(
+//          link: URL(string: "https://www.apple.com")!,
+//          text: "Check out this link!",
+//          image: UIImage(named: "my-image")
+//        )
       }
     }
   }
@@ -87,7 +93,7 @@ struct AccountView: View {
     
   var links: some View {
     Section {
-      Link(destination: URL(string: "http://apple.com")!) {
+      Link(destination: URL(string: "https://apps.apple.com/cn/app/%E5%B0%8F%E8%93%9D%E9%B8%9F-bluebird-%E4%B8%93%E6%B3%A8%E7%95%AA%E8%8C%84%E9%92%9F-%E5%BE%85%E5%8A%9E%E6%B8%85%E5%8D%95/id1478757472")!) {
         HStack {
           Label("Apple", systemImage: "apple.logo")
           Spacer()
